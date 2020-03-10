@@ -20,7 +20,7 @@ class BenefitReview extends React.Component {
         var selectedPackages = this.props.selectedPackages;
         var selectedBenefits = this.props.selectedBenefits; 
 
-        beneftisData.map(pVal => {
+        /*beneftisData.map(pVal => {
             pVal.categories.map(cVal => {
                 cVal.benefits.map(bVal => {
                     if(selectedBenefits.indexOf(bVal.benefitId) > -1 && selectedPackages.indexOf(pVal.packageId) > -1) {
@@ -30,7 +30,19 @@ class BenefitReview extends React.Component {
                     }
                 });   
             });  
-        });
+        });*/
+
+        for(let pack of beneftisData) {
+          for(let category of pack.categories) {
+              for(let benefit of category.benefits) {
+                  if(selectedBenefits.indexOf(benefit.benefitId) > -1 && selectedPackages.indexOf(pack.packageId) > -1) {
+                      pack.selected = true;
+                      category.selected = true;
+                      benefit.selected = true;
+                  }
+              }
+          }
+        }
 
         let arrBenefits = beneftisData.filter( function (data) {
             return data.selected
