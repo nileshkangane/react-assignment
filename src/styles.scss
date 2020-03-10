@@ -1,0 +1,32 @@
+.App {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  color: blue;
+}
+
+.button-bar {
+  display: flex;
+  justify-content: space-between;
+
+  & > button {
+    padding: 10px 15px;
+    background: navy;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    font-size: 13px;
+
+    &:hover {
+      background: blueviolet;
+      cursor: pointer;
+    }
+
+    &:disabled {
+      background: #ccc;
+      color: #999;
+    }
+  }
+}

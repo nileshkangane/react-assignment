@@ -1,0 +1,141 @@
+[
+  {
+    "packageId": "p001",
+    "packageName": "Basic",
+    "packageDesc": "These will be part of your basic package",
+    "categories": [
+      {
+        "categoryId:": "c001",
+        "categoryName": "Health",
+        "benefits": [
+          {
+            "benefitId": "b001",
+            "benefitName": "Actual"
+          },
+          {
+            "benefitId": "b002",
+            "benefitName": "Accrued"
+          },
+          {
+            "benefitId": "b003",
+            "benefitName": "Additional"
+          }
+        ]
+      },
+      {
+        "categoryId:": "c002",
+        "categoryName": "Travel",
+        "benefits": [
+          {
+            "benefitId": "b004",
+            "benefitName": "Road"
+          },
+          {
+            "benefitId": "b005",
+            "benefitName": "Air Travel"
+          }
+        ]
+      },
+      {
+        "categoryId:": "c003",
+        "categoryName": "Pension",
+        "benefits": [
+          {
+            "benefitId": "b006",
+            "benefitName": "Annual"
+          },
+          {
+            "benefitId": "b007",
+            "benefitName": "5 year"
+          },
+          {
+            "benefitId": "b008",
+            "benefitName": "10 year"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "packageId": "p002",
+    "packageName": "Additional",
+    "packageDesc": "These will be included in the additional package",
+    "categories": [
+      {
+        "categoryId": "c004",
+        "categoryName": "Allowance",
+        "benefits": [
+          {
+            "benefitId": "b009",
+            "benefitName": "Higher section"
+          },
+          {
+            "benefitId": "b010",
+            "benefitName": "Entertainment"
+          }
+        ]
+      },
+      {
+        "categoryId": "c005",
+        "categoryName": "Retreat",
+        "benefits": [
+          {
+            "benefitId": "b011",
+            "benefitName": "Domestic"
+          },
+          {
+            "benefitId": "b012",
+            "benefitName": "International"
+          }
+        ]
+      },
+      {
+        "categoryId": "c006",
+        "categoryName": "Facilities",
+        "benefits": [
+          {
+            "benefitId": "b013",
+            "benefitName": "Gym"
+          },
+          {
+            "benefitId": "b014",
+            "benefitName": "Spa"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "packageId": "p003",
+    "packageName": "Optional",
+    "packageDesc": "These will be included in the optional package",
+    "categories": [
+      {
+        "categoryId": "c007",
+        "categoryName": "Peripherals",
+        "benefits": [
+          {
+            "benefitId": "b015",
+            "benefitName": "Bluetooth keyboard"
+          },
+          {
+            "benefitId": "b016",
+            "benefitName": "Bluetooth mouse"
+          },
+          {
+            "benefitId": "b017",
+            "benefitName": "Additional monitor"
+          },
+          {
+            "benefitId": "b018",
+            "benefitName": "Bluetooth headphones"
+          },
+          {
+            "benefitId": "b019",
+            "benefitName": "Docking station"
+          }
+        ]
+      }
+    ]
+  }
+]

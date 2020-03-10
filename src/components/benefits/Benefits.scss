@@ -1,0 +1,56 @@
+h1 {
+  > span {
+    color: #333;
+  }
+}
+
+.benefits-section {
+  background: #f0f0f0;
+  text-align: left;
+  padding: 0 10px 10px 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+
+  &__header {
+    border-bottom: 1px solid #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    > h2 {
+      font-size: 18px;
+    }
+    &-cb {
+      font-size: 12px;
+    }
+  }
+
+  > p {
+    font-size: 12px;
+  }
+
+  &__categories {
+    background: #ccc;
+    padding: 0 10px;
+    border-radius: 5px;
+    display: flex;
+  }
+
+  &__category-section {
+    margin-right: 30px;
+    & > h3 {
+      font-size: 15px;
+    }
+    & > ul {
+      padding: 0;
+      & > li {
+        list-style: none;
+        & > input {
+          margin-right: 12px;
+        }
+        & > label {
+          font-size: 13px;
+        }
+      }
+    }
+  }
+}
