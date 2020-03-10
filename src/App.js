@@ -7,9 +7,6 @@ import "./styles.scss";
 export default class App extends React.Component {
     constructor(props) {
         super(props);
-        this.state = {
-            enableReviewSelection : false
-        };
     }
 
     render() {

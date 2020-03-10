@@ -20,18 +20,6 @@ class BenefitReview extends React.Component {
         var selectedPackages = this.props.selectedPackages;
         var selectedBenefits = this.props.selectedBenefits; 
 
-        /*beneftisData.map(pVal => {
-            pVal.categories.map(cVal => {
-                cVal.benefits.map(bVal => {
-                    if(selectedBenefits.indexOf(bVal.benefitId) > -1 && selectedPackages.indexOf(pVal.packageId) > -1) {
-                      pVal.selected = true;
-                      cVal.selected = true;
-                      bVal.selected = true;
-                    }
-                });   
-            });  
-        });*/
-
         for(let pack of beneftisData) {
           for(let category of pack.categories) {
               for(let benefit of category.benefits) {

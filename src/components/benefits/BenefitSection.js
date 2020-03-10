@@ -9,7 +9,7 @@ export default class BenefitSection extends React.Component {
                 <BenefitSectionHeader benefitsData={this.props.benefitsData} />
                 <p>{this.props.benefitsData.packageDesc}</p>
                 <div className="benefits-section__categories">
-                    {this.props.benefitsData.categories.map(data => <BenefitSectionCategory key={data.categoryId} benefitsData={data} />)}
+                    {this.props.benefitsData.categories.map(data => <BenefitSectionCategory benefitsData={data} key={data.categoryName} />)}
                 </div>
         </section>
         );
